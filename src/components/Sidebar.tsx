@@ -13,7 +13,7 @@ const Sidebar = ({ Cstm_class }: any) => {
         setVisibleJobs(prevVisibleJobs => prevVisibleJobs + 1); // Incrementally show 3 more jobs
     };
     return (
-        <div className={`${Cstm_class} w-full flex flex-col gap-5 sideBar  ${visibleJobs > 4 ? "h-[993px] overflow-y-scroll" : "h-full"}`}>
+        <div className={`${Cstm_class} w-full flex flex-col gap-5 sideBar  ${visibleJobs > 4 ? "h-[1080px] overflow-y-scroll" : "h-full"}`}>
             <FindJob />
             <div>
                 <h4 className='text-base font-semibold text-title mb-4'>
