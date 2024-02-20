@@ -6,7 +6,7 @@ const FindJob = () => {
     return (
         <div className='w-full bg-white px-8 py-7 rounded-[15px] border border-line'>
             <div>
-                <Image src="/assets/images/job-search.png" alt='img' width={235} height={170} />
+                <Image src="/assets/images/job-search.png" alt='Feature Image' width={235} height={170} />
             </div>
             <div>
                 <h4 className='text-base font-semibold text-title text-center'>
