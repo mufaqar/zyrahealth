@@ -14,7 +14,7 @@ const IconBox = ({ title, icon, content, link, link_txt }: any) => {
             <p className='text-sm font-normal text-title text-center'>
                 {content}
             </p>
-            <Link href={link} className='text-base font-medium text-center text-primary flex items-center gap-2 hover:gap-5 mt-3 w-[146px] hover:w-[156px] mx-auto transform transition-all duration-300'>
+            <Link href={link} className='text-base font-medium text-center justify-center text-primary flex items-center gap-2 hover:gap-5 mt-3 w-[146px] hover:w-[170px] mx-auto transform transition-all duration-300'>
                 {link_txt} <FaArrowRightLong />
             </Link>
         </div>
